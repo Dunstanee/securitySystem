@@ -1,0 +1,258 @@
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .header {
+        display: flex;
+    }
+    
+    .bg-dash {
+        background-color: rgb(192, 3, 3);
+    }
+    
+    .links {
+        padding: 20px;
+        display: flex;
+    }
+    
+    .links ul {
+        padding: 10px;
+        list-style: none;
+        display: flex;
+    }
+    
+    .links ul li {
+        padding-left: 10px;
+        color: mintcream;
+    }
+    
+    .links ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: mintcream;
+    }
+    
+    .links ul li:hover {
+        font-weight: bold;
+        color: oldlace;
+    }
+    
+    .title {
+        margin-left: 2%;
+        background-color: snow;
+        font-size: 30px;
+        padding: 15px;
+        color: rgb(192, 3, 3);
+    }
+    
+    .credential {
+        display: inline-flex;
+    }
+    
+    .credential h4 {
+        padding-left: 10px;
+    }
+    
+    .txt-red {
+        color: rgb(192, 3, 3);
+    }
+    /* editing the users registration part  */
+    
+    .users {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .users table {
+        padding: 20px;
+        width: 100%;
+    }
+    
+    #name,
+    #dob,
+    #gender,
+    #pass,
+    #designation,
+    #age {
+        width: 300px;
+        padding: 10px;
+    }
+    
+    .btn:hover {
+        cursor: pointer;
+    }
+    
+    .btn {
+        color: snow;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 2px;
+        text-align: center;
+        background-color: rgb(1, 141, 87);
+        border-style: none;
+        width: 40%;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    /* end of editing users registration  */
+    
+    .user-table {
+        padding: 20px;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .user-table table {
+        width: 100%;
+    }
+    
+    .user-table table thead {
+        background-color: tomato;
+        color: whitesmoke;
+        padding: 20px;
+    }
+    
+    .user-table table thead tr th {
+        padding: 10px;
+    }
+    
+    .user-table table tbody {
+        text-align: center;
+    }
+    
+    .buttons a {
+        padding-left: 5px;
+        text-decoration: none;
+    }
+    
+    .buttons a img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .form {
+        width: 60%;
+        margin: auto;
+    }
+    
+    .form table {
+        width: 90%;
+        padding: 30px;
+    }
+    
+    .form table tr td {
+        padding: 10px;
+    }
+    
+    #complaint_type {
+        width: 350px;
+        padding: 10px;
+    }
+    
+    .form h6 {
+        font-size: 18px;
+        color: teal;
+    }
+    
+    .content {
+        padding: 50px;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .content h1 {
+        font-size: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .content h1 span {
+        color: tomato;
+    }
+    
+    .profile {
+        padding: 50px;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .profile table {
+        width: 100%;
+    }
+    
+    .profile table tr td {
+        padding: 10px;
+        width: 50%;
+    }
+    
+    .table {
+        padding: 20px;
+    }
+    
+    .table table {
+        width: 100%;
+    }
+    
+    .table table tr th {
+        color: white;
+        background-color: tomato;
+        padding: 10px;
+    }
+    
+    .task {
+        padding-top: 30px;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .task table {
+        width: 80%;
+    }
+    
+    #guard {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .table_report {
+        padding: 20px;
+    }
+    
+    .table_report table {
+        width: 100%;
+    }
+    
+    .table_report table tr th {
+        color: white;
+        background-color: rgb(14, 0, 214);
+        padding: 10px;
+    }
+    
+    .tt {
+        margin: 10px;
+        flex-wrap: wrap;
+        background: rgb(247, 226, 226);
+        padding: 10px;
+        box-shadow: 2px 2px 2px 2px rgb(165, 152, 152);
+    }
+    
+    @media print {
+        #tab * {
+            visibility: visible;
+        }
+        #tab {
+            position: absolute;
+            top: 40px;
+            left: 30px;
+        }
+        #tab tr td {
+            border: 1px solid saddlebrown;
+        }
+    }
